@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package mainspark.proto;
+
+message ExampleOne {
+  string design_name = 1;
+  int32 owner = 2;
+  repeated int64 numeric_hash_code = 3;
+}
